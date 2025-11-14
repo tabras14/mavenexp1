@@ -38,7 +38,7 @@ public class Registration extends HttpServlet {
 
         } catch (Exception e) {
             e.printStackTrace();
-            response.getWriter().println("Error: " + e.getMessage());
+            response.getWriter().println("Error in code: " + e.getMessage());
         }
     }
 }
